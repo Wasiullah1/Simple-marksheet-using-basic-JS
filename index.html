@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+		<div id="hold">
+			<div id="marksheet">
+			    <h1 id="top"> MEHRAN UNIVERSITY OF ENGINEERING & TECHNOLOGY</h1>
+			    <br>
+			    <h2>Grade Certificate</h2>
+			    <p id="para">The Grades obtained by <div id="yourname"></div> Having ID of <div id="yourID"></div> in 1st Semester B.E of Computer System Engineering, are give below</p>
+			    <table id="marks" style="width:100%">
+				    <tr id="heading">
+				        <th>SUBJECTS</th>
+				        <th>TOTAL-MARKS</th>
+				        <th>MARKS-OBT</th>
+				        <th>GRADES</th>
+				    </tr>
+				    <tr id="table1">
+				        <th>CALCULUS</th>
+				        <th>100 </th>
+				        <th><div id="calculus"></div></th>
+				        <th><div id="grade1"></div></th>
+				    </tr>
+				    <tr id="table2">
+				        <th>Computer Fundamentals</th>
+				        <th>100 </th>
+				        <th><div id="computer"></div> </th>
+				        <th><div id="grade2"></div></th>
+				    </tr>
+				    <tr id="table3">
+				        <th>Funtional English</th>
+				        <th>100 </th>
+				        <th><div id="english"></div></th>
+				        <th><div id="grade3"></div></th>
+				    </tr>
+				    <tr id="table4">
+				        <th>Electrical Engineering</th>
+				        <th>100 </th>
+				        <th><div id="electrical"></div></th>
+				        <th><div id="grade4"></div></th>
+				    </tr>
+				    <tr id="table5">
+				        <th>Electronics Engineering</th>
+				        <th>100 </th>
+				        <th><div id="electronics"></div></th>
+				        <th><div id="grade5"></div></th>
+				    </tr>
+			    </table>
+			</div>
+		</div>
+		<div id="box">
+			<h1 id="log">LOGIN YOUR ID</h1>
+			<div><h2 id="label">Roll Number</h2></div>
+			<input type="text" placeholder="  Enter your ID" id="id">
+			<br>
+			<div><h2 id="label">Username</h2></div>
+			<input type="text" placeholder="  Enter your Name" id="name">
+			<br>
+			<input type="button" value='Sign In' id="login">
+		</div>
+
+		<script type="text/javascript" src="marksheet.js"></script>
+    </body>
+</html>
