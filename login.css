@@ -1,0 +1,82 @@
+body{
+    background-image: url('GraphicDesign.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#marksheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+}
+#hold{
+    background-image: url('marksheet.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    align-items: center;
+    width: 60%;
+    margin: 40px 20px;
+}
+h1#top{
+    width: 48%; 
+}
+#heading{
+    background-color: rgb(87, 86, 86);
+
+}
+#marks{
+    background-color: chartreuse;
+    border:8px solid black;
+}
+#table2{
+    margin: 20px;
+}
+#table3{
+    margin: 20px;
+}
+#box{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 20px;
+    padding: 40px 20px;
+}
+#log{
+    color: whitesmoke;
+}
+#id{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+}
+#name{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+}
+#password{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+}
+h2#label{
+    color: rgb(32, 219, 219);
+}
+#calc{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+}
+#login{ 
+    background-color: burlywood;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
